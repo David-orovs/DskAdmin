@@ -1,0 +1,39 @@
+@font-face {
+  src: url(../../fonts/ProductSansRegular.ttf);
+  font-family: pro;
+}
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: pro;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+.logout__button {
+    min-width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 2px;
+    margin-left: 10px;
+    font-family: pro;
+    font-size: 7px;
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed';
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+  
+}
+  
+.logout__button:hover {
+    background-color: rgb(54, 55, 64);
+    color: white;
+}

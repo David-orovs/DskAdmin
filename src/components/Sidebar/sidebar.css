@@ -1,0 +1,87 @@
+@font-face {
+  src: url(../../fonts/ProductSansRegular.ttf);
+  font-family: pro;
+}
+.sidebar {
+  width: 15.5rem;
+  height: 100vh;
+  /* border: 2px solid red; */
+  margin-top: 0px;
+  /* background: url('../../images/Background\ 2.svg') no-repeat; */
+  background: rgb(93, 96, 114);
+}
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  list-style: none;
+}
+.collapsed {
+    display:block;
+}
+.links{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1px;
+  font-family: pro;
+  text-transform: uppercase;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  /* border: 2px solid blue; */
+  color: rgb(164, 166, 179);
+}
+.toggle-area {
+    display:none;
+}
+.tete__box{
+  margin-top: 30px;
+  padding: 1px;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+  /* border: 2px solid gold; */
+}
+.title{
+  color: white;
+}
+.title:hover{
+  color: #DDE2FF;
+}
+.tete__logo{
+  width: 90px;
+}
+.tete__logo img{
+  width: 80px;
+}
+.toggle-button {
+    background-color: #0e1e24 !important;
+    border-color: #0e1e24 !important;
+    width: 40px;
+    color: seagreen !important;
+}  
+.navbar-nav .nav-link {
+    margin-bottom: 20px;
+    font-size: 16px;
+}  
+.navbar-nav .dropdown-menu {
+    position: static;
+    float: none;
+}  
+.nav-link:hover, .nav-link:focus {
+  background-color: rgba(221,226,255, 0.08);
+  height: 56;
+  color: #DDE2FF;
+}  
+.nav-link.disabled {
+    color: #dbdbdb;
+    pointer-events: none;
+    cursor: default;
+}
